@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ООО УК "ЭкономЪ"</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>ООО УК "ЭкономЪ"</h1>
+    </header>
+    <main>
+        <!-- Здесь вы можете добавить контент -->
+        <div class="buttons">
+            <button>Контакты</button>
+            <button>Важная информация</button>
+            <button id="leaveRequestButton">Оставить заявку</button>
+        </div>
+        <form id="myForm" action="#" method="POST">
+            <label for="phone">Телефон:</label>
+            <input type="text" id="phone" name="phone" placeholder="Введите ваш телефон">
+            <label for="address">Адрес:</label>
+            <input type="text" id="address" name="address" placeholder="Введите ваш адрес">
+            <label for="subject">Суть заявки:</label>
+            <textarea id="subject" name="subject" placeholder="Введите суть заявки"></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </main>
+    <footer>
+        &copy; 2023 ООО УК "ЭкономЪ". Все права защищены.
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
+
