@@ -99,10 +99,6 @@ footer {
     padding: 20px;
 }
 
-#myForm {
-    display: none;
-}
-
 .buttons {
     display: flex;
     justify-content: space-between;

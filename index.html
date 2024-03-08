@@ -17,32 +17,38 @@
     <main>
        
         <div class="buttons">
-            <button id="open-modal">Контакты</button>
+            <button id="open-contact-modal">Контакты</button>
             <button>Важная информация</button>
-            <button id="leaveRequestButton">Оставить заявку</button>
+            <button id="open-message-modal">Оставить заявку</button>
         </div>
 
-        <form id="myForm" action="#" method="POST">
-            <label for="phone">Телефон:</label>
-            <input type="text" id="phone" name="phone" placeholder="Введите ваш телефон">
-            <label for="address">Адрес:</label>
-            <input type="text" id="address" name="address" placeholder="Введите ваш адрес">
-            <label for="subject">Суть заявки:</label>
-            <textarea id="subject" name="subject" placeholder="Введите суть заявки"></textarea>
-            <button type="submit">Отправить</button>
-        </form>
     </main>
 
     <footer>
         &copy; 2023 ООО УК "ЭкономЪ". Все права защищены.
     </footer>
 
-    <div id="my-modal" class="modal">
+    <div id="contact-modal" class="modal">
         <div class="modal-content">
           <span class="close">&times;</span>
           <p>ТЕЛЕФОН: 526-000</p>
           <P>АДРЕС: Г. КАЛИНИНГРАД, СОВЕТСКИЙ ПР-Т 81, КОРПУС 4, СЕКЦИЯ А, ОФИС 4А</P>
           <p>E-MAIL: upravdom@economte.ru</p>
+        </div>
+    </div>
+
+    <div id="message-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="myForm" action="#" method="POST">
+                <label for="phone">Телефон:</label>
+                <input type="text" id="phone" name="phone" placeholder="Введите ваш телефон">
+                <label for="address">Адрес:</label>
+                <input type="text" id="address" name="address" placeholder="Введите ваш адрес">
+                <label for="subject">Суть заявки:</label>
+                <textarea id="subject" name="subject" placeholder="Введите суть заявки"></textarea>
+                <button type="submit">Отправить</button>
+            </form>
         </div>
     </div>
 
