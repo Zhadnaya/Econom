@@ -1,12 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
-    let leaveRequestButton = document.getElementById('leaveRequestButton');
-    let form = document.getElementById('myForm');
-
-    leaveRequestButton.addEventListener('click', function() {
-        form.style.display = 'block';
-    });
-});
-
 /*Модальное окно контактов*/
 document.getElementById('contact-modal').addEventListener('click', function(event) {
     if (event.target.classList.contains('close')) {
